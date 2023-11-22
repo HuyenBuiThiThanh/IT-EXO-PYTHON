@@ -66,7 +66,7 @@ total =0
 
 # Fonction qui calcule la factorielle d'un nombre
 
-number = 5
+# number = 5
 # factorielle =1
 # i=1
 # while i <=  number:
@@ -75,9 +75,71 @@ number = 5
 # print(factorielle)
 
 
-number = 5
-result =1
-for i in range(number+1):
-    if i> 0:
-        result=result*i       
-print(result)
+# number = 5
+# result =1
+# for i in range(number+1):
+#     if i> 0:
+#         result=result*i       
+# print(result)
+
+
+# number = 5
+# result = number
+# for i in range(number):
+#     if i> 0:
+#         result=result* (number -i) 
+# print(result)
+
+# # verifier un palindrome
+# var = "radar"
+# sortie = "true"
+
+
+# def comparer1(var):
+#     result = ""
+#     length = len(var)
+#     for i in range(length):
+#         result = result + var[length - i - 1]
+#     if var == result: 
+#         print(True)
+#     else:
+#         print(False)
+    
+# comparer1("HUHUH")
+
+
+# def  comparer2(var):
+#     length = len(var) // 2
+#     i = 0
+#     while i <= length:
+#         if var[i] == var [len(var) -i - 1]:
+#             i = i + 1
+#             if i == length:
+#                 print(True)
+#         else:
+#             print(False)
+#             break
+
+# comparer2("HUHUHUHUH")
+
+
+# entree = "bonjour"
+# list_entree =  list(entree)
+
+
+resul = "bonj"
+retour ="ltotll"
+
+def checkresul(resul,retour):
+    if resul == retour:
+         return True
+    else:
+        return False
+    return 
+checkresul(resul,retour) 
+if checkresul(resul,retour):
+    print(checkresul(resul,retour))
+
+
+
+
